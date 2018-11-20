@@ -14,8 +14,8 @@ def greeting(name, height)
   puts "Hi, my name is #{name} and I am #{height}."
 end
 
-def return_a_value
-  puts "Nice"
+def return_a_value(value = "Nice")
+  value
 end
 
 def last_evaluated_value
